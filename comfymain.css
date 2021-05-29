@@ -2355,7 +2355,7 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 .withFrame-haYltI {background:var(--background-tertiary);padding-top:4px;margin-top:0}
 .privateChannels-1nO12o, .nowPlayingColumn-2sl4cE, .container-3w7J-x, #app-mount .pageWrapper-1PgVDX, .sidebar-2K8pFh>.scrollerBase-289Jih, .members-1998pB {background:rgba(30,34,51,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 .peopleColumn-29fq28 {background-color: transparent;}
-
+.peopleList-3c4jOR{margin-top: 0px;
 /*Channel Icons For Comfy because idk*/
 [href="/channels/811203761619337259/820232999878393856"] > div > svg > path {
     d: path("M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z");
