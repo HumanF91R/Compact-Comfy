@@ -355,3 +355,22 @@
 div.profileBanner-33-uE1.banner-2QYc2d{
 background-color: var(--background-floating)!important;
 }
+
+/*Hide Now Playing Column*/
+.nowPlayingColumn-2sl4cE {
+  position:fixed !important;
+  right: 0% !important;
+  height: 100% !important;
+  transform: translateX(285px) !important;
+  transition: 700ms ease-in !important;
+}
+.nowPlayingColumn-2sl4cE:hover {
+  transform: none !important;
+}
+.peopleColumn-29fq28, .peopleList-3c4jOR{
+  width: calc(100% - 65px) !important;
+  background-color: var(--background-secondary-alt);
+}
+.peopleList-3c4jOR{
+	margin-top: 0px!important;
+}
