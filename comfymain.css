@@ -9,22 +9,6 @@
 
 /* --------------------------- 🚥 WINDOWS BUTTONS PART --------------------------- */
 
-/*Hide Now Playing Column*/
-.nowPlayingColumn-2sl4cE {
-  position:fixed !important;
-  right: 0% !important;
-  height: 100% !important;
-  transform: translateX(285px) !important;
-  transition: 700ms ease-in !important;
-  background-color: var(--background-secondary-alt) !important;
-}
-.nowPlayingColumn-2sl4cE:hover {
-  transform: none !important;
-}
-.peopleColumn-29fq28, .peopleList-3c4jOR{
-  width: calc(100% - 65px) !important;
-}
-
 .winButton-iRh8-Z:not(:last-child) > svg {
   display: none;
 }
