@@ -2474,21 +2474,6 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
     padding: 35px 0 55px 0;
 }
 
-/*Minimized Now Playing Column*/
-.nowPlayingColumn-2sl4cE {
-  transform: translateX(82%);
-  transition: 700ms ease-in;
-}
-.nowPlayingColumn-2sl4cE:hover {
-  transform: none;
-}
-.peopleList-3c4jOR {
-    position: absolute;
-    padding-bottom: 8px;
-    width: 96%;
-    height: 100%;
-    background-color: rgba(35,40,61,0.75);
-}
 
 /*Menu Popup*/
 :root {
