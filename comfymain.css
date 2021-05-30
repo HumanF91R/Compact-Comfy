@@ -16,7 +16,7 @@
   height: 100% !important;
   transform: translateX(285px) !important;
   transition: 700ms ease-in !important;
-  background-color: rgba(35,40,61,0.75) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 .nowPlayingColumn-2sl4cE:hover {
   transform: none !important;
