@@ -2292,6 +2292,23 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
         transform: scaleY(1);
     }
 }
+
+/*Hide Now Playing Column*/
+.nowPlayingColumn-2sl4cE {
+  position:fixed;
+  right: 0%;
+  height: 100%;
+  transform: translateX(285px);
+  transition: 700ms ease-in;
+  background-color: rgba(35,40,61,0.75);
+}
+.nowPlayingColumn-2sl4cE:hover {
+  transform: none;
+}
+.peopleColumn-29fq28, .peopleList-3c4jOR{
+  width: calc(100% - 65px);
+}
+	
 /*Chat Buttons Hide*/
 .buttons-3JBrkn {
     opacity: 0%; 
@@ -2603,21 +2620,4 @@ rect[mask="url(#svg-mask-status-streaming)"] { fill: var(--streaming);}
 /*Remove Banner color*/
 div.profileBanner-33-uE1.banner-2QYc2d{
 background-color: var(--background-floating)!important;
-}
-
-/*Minimized Now Playing Column*/
-/*By Cryptogenic*/
-.nowPlayingColumn-2sl4cE {
-  position:fixed;
-  right: 0%;
-  height: 100%;
-  transform: translateX(285px);
-  transition: 700ms ease-in;
-}
-.nowPlayingColumn-2sl4cE:hover {
-  transform: none;
-}
-.peopleColumn-29fq28, .peopleList-3c4jOR{
-  width: calc(100% - 65px);
-  background-color: rgba(35,40,61,0.75);
 }
