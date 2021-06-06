@@ -145,7 +145,6 @@
 }
 .userPopout-3XzG_A .timeBarUserPopout-AWPFf2::after {
     background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(5px);
     box-shadow: 0px 4px 0px #66ff0099 !important;
 }
 .headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
@@ -173,6 +172,7 @@
 
 .activityUserPopout-2yItg2{
     background-color: rgba(255, 255, 255, .15)!important;
+    backdrop-filter: blur(5px);
 }
 
 .userPopout-3XzG_A .timeBarUserPopout-AWPFf2::after{
