@@ -16,7 +16,7 @@
 }
 
 .menu-3sdvDG {
-    animation: custom-menu-animation 250ms ease;
+    animation: custom-menu-animation var(--animations-speed) ease;
     transform-origin: top;
 }
 
@@ -230,7 +230,7 @@
 /*Minimized Now Playing Column*/
 .nowPlayingColumn-2sl4cE {
   transform: translateX(82%);
-  transition: var(--animations-speed) ease-in;
+  transition: var(--animations-speed);
 }
 .nowPlayingColumn-2sl4cE:hover {
   transform: none;
@@ -382,7 +382,7 @@ background-color: var(--background-floating)!important;
   right: 0% !important;
   height: 100% !important;
   transform: translateX(285px) !important;
-  transition: var(--animations-speed) ease-in !important;
+  transition: var(--animations-speed)!important;
 }
 .nowPlayingColumn-2sl4cE:hover {
   transform: none !important;
