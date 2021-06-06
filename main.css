@@ -48,7 +48,7 @@
   width: 62px;
   min-width: 60px;
   transition-property: width, min-width;
-  transition-duration: 800ms;
+  transition-duration: var(--animations-speed);
 }
 .members-1998pB:hover,
 .membersWrap-2h-GB4:hover {
@@ -108,7 +108,7 @@
 .sidebar-2K8pFh {
     width: 0px;
     transition: 0.2s ease;
-    transition-duration: 800ms;
+    transition-duration: var(--animations-speed);
 }
 .wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
     width:240px;
@@ -230,7 +230,7 @@
 /*Minimized Now Playing Column*/
 .nowPlayingColumn-2sl4cE {
   transform: translateX(82%);
-  transition: 700ms ease-in;
+  transition: var(--animations-speed) ease-in;
 }
 .nowPlayingColumn-2sl4cE:hover {
   transform: none;
@@ -382,7 +382,7 @@ background-color: var(--background-floating)!important;
   right: 0% !important;
   height: 100% !important;
   transform: translateX(285px) !important;
-  transition: 700ms ease-in !important;
+  transition: var(--animations-speed) ease-in !important;
 }
 .nowPlayingColumn-2sl4cE:hover {
   transform: none !important;
