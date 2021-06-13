@@ -322,11 +322,6 @@
 
 .avatar-22FtUu {border: none}
 
-/*Remove Banner color*/
-div.profileBanner-33-uE1.banner-2QYc2d{
-background-color: var(--background-floating)!important;
-}
-
 /*Hide Now Playing Column*/
 .nowPlayingColumn-2sl4cE {
   position:fixed !important;
