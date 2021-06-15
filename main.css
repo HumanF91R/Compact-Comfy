@@ -354,3 +354,24 @@
   --colour-9: #EFCFAF;
   --colour-10: #FDC7C5;
 }
+
+/*Big User Popout text shadow*/
+.customStatusActivity-nmH3DF {
+  position: fixed; display: flex;
+  align-items: center; justify-content: center;
+  top: 20px; left: 280px; bottom: calc(100% - 240px);
+  width: calc(100% - 300px);
+  padding: 0;
+  background-color: #1013202a;
+  border-radius: 20px;
+  
+}
+
+.customStatusText-2opeSw { font-size: 20px; color: rgb(255, 255, 255);}
+.customStatus-1COQYu { 
+  display: flex; flex-direction: column;
+  align-items: center; gap: 15px;
+}
+
+.customStatus-1COQYu .customStatusEmoji-1xY2Yn { width: 40px; height: 40px;}
+
